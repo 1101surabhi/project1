@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon3/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon3/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon3/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7bbfef19fa.js" crossorigin="anonymous"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <header>
+            
+            <!-- topbar -->
+            <div id="topbar" class="uni-padding">
+                <p id="tollfree"> Toll Free: 12345-6789</p>
+                <div id="social-icon">
+                    <a href=" "><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=" "><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=" "><i class="fa-brands fa-twitter"></i></a>
+                    <a href=" "><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <!-- logobar -->
+            <div id="logobar" class="uni-padding">
+                <img src="images/favicon3/android-chrome-192x192.png" alt="logo">
+            </div>
+
+            <!-- navbar -->
+            <nav id="navbar" class="uni-padding">
+                <ul>
+                    <!-- mobile btn -->
+                    <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Services</li></a>
+                    <li><a href="">Team</li></a>
+                    <li><a href="">Portfolio</li></a>
+                    <li><a href="">Testimonials</li></a>
+                    <li><a href="">Contact Us</li></a>
+                </ul>
+            </nav>
+
+            <div id="mobile-bar" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i> Menu
+            </div>
+        </header>
+
+        <!-- poster -->
+        <div id="poster" class="uni-padding">
+            <h1>Lorem ipsum dolor</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque consectetur nesciunt molestiae expedita sint quod, dignissimos delectus adipisci architecto maiores minus deserunt sed, qui vel natus reiciendis dicta exercitationem repudiandae.</p>
+        </div>
+
+        <!-- why-us-section -->
+        <div id="whysection" class="uni-padding">
+            <h1 class="red-heading">Why Us</h1>
+            <div class="section33">
+                <img src="images/why-clock-icon.png" alt="clock" width="175px">
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore id sequi suscipit numquam ratione omnis atque facere officia modi!</p>
+            </div>
+            <div class="section33">
+                <img src="images/why-gallery-icon.png" alt="gallery" width="175px">
+                <h2>Heading 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore id sequi suscipit numquam ratione omnis atque facere officia modi!</p>
+            </div>
+            <div class="section33">
+                <img src="images/why-folder-icon.png" alt="folder" width="175px">
+                <h2>Heading 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore id sequi suscipit numquam ratione omnis atque facere officia modi!</p>
+            </div>
+        </div>
+        
+        <!-- contact section -->
+        <div id="contact-container" class="uni-padding">
+            <div class="section70">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque similique repellat dolores doloremque iste optio dolore velit architecto magnam quas ab nesciunt quo molestiae rem deleniti, nostrum accusantium earum totam?</p>
+            </div>
+            <div class="section30">
+                <a href="" id="contact-btn">Contact Us</a>
+            </div>
+        </div>
+
+        <!-- blog -->
+        <div id="whysection" class="uni-padding">
+            <h1 class="red-heading">Blog</h1>
+            <div class="section33">
+                <img src="images/blog1.jpg" alt="house" width="300px" height="200px">
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore id sequi suscipit numquam ratione omnis atque facere officia modi!</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="section33">
+                <img src="images/blog2.jpg" alt="decor" width="300px" height="200px">
+                <h2>Heading 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore id sequi suscipit numquam ratione omnis atque facere officia modi!</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="section33">
+                <img src="images/blog3.jpg" alt="books" width="300px" height="200px">
+                <h2>Heading 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore id sequi suscipit numquam ratione omnis atque facere officia modi!</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+
+        <!-- subscribe -->
+        <div id="subscribe-section" class="uni-padding">
+            <div class="section50">
+                <h2>Subscribe to our Newsletter</h2>
+            </div>
+            <div class="section50">
+                <form action="">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+
+        
+        <!-- footer -->
+        <footer>
+
+            <!-- imp-links -->
+            <div id="imp-link" class="uni-padding">
+                <div class="div33">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iure similique ipsam quas maiores illo eveniet sunt! Dolorum officia quas quibusdam eveniet atque vero dolorem reprehenderit voluptatum quisquam itaque veniam, velit eaque molestias obcaecati voluptatem laborum voluptate ratione blanditiis assumenda eius quasi. Exercitationem optio modi nam quod! Placeat, est enim?</p>
+                </div>
+                <div class="div33" id="footer-menu-container">
+                    <h3>Important Links</h3>
+                    <ul id="footer-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="div33">
+                    <h3>Contact Us</h3>
+                    <p>15, Raheja Plaza, 17 Smst Road, Museum Road<br>
+                       Bangalore, Karnataka - 560025
+                    </p>
+                </div>
+            </div>
+
+            <!-- copyright -->
+            <div id="copyright">
+                <p>Copyright &copy; SAgarwal 2023-2024</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
